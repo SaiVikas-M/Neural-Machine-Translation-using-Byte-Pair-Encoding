@@ -1,10 +1,10 @@
 # Machine-Translation_BPE
 In this notebook, we aim build a deep neural network that tries to enhance the language translation process by introducing a sub-word tokenization algorithm called byte pair encoding. Final pipeline will accept English text as input and return the French translation.
 
-# Setup
+## Setup
 This project requires GPU acceleration to run efficiently. You can use GPU from either your personal system's GPU or GPU provided by Google Colab.
 
-# Technologies used:
+## Technologies used:
    #### TensorFlow: 
    TensorFlow is an end-to-end open-source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
@@ -14,7 +14,7 @@ This project requires GPU acceleration to run efficiently. You can use GPU from 
   #### Keras: 
   Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation.
   
-# Neural Machine translation:
+## Neural Machine translation:
 
 Neural Machine translation is the use of neural network models to learn a statistical model for machine translation. The key benefit to the approach is that a single system can be trained directly on source and target text. Multilayer Perceptron neural network models can be used for machine translation, although the models are limited by a fixed-length input sequence where the output must be the same length. These early models have been greatly improved upon recently using recurrent neural networks organized into an encoder-decoder architecture that allow for variable length input and output sequences. Key to the encoder-decoder architecture is the ability of the model to encode the source text into an internal fixed-length representation called the context vector. Interestingly, once encoded, different decoding systems could be used, in principle, to translate the context into different languages. The encoder-decoder recurrent neural network architecture with attention is currently the state-of-the-art on some benchmark problems for machine translation.
 
